@@ -7,7 +7,7 @@
 <body>
   <p>
     <?php
-    //Teste que les paramètres de l'url existent
+    //Teste que les paramètres de l'url existent et affichage des valeurs
     if(isset($_GET['language']) && isset($_GET['server'])){
       echo $_GET['language'] . ' ' . $_GET['server'];
     }
